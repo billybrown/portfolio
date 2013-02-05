@@ -1,0 +1,14 @@
+
+.DS_Store
+
+*.scssc
+
+*.sassc
+
+_site/about.html
+
+_site/art.html
+
+_site/config.rb
+
+_site/css/break-1.css
