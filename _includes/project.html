@@ -1,0 +1,70 @@
+        
+<div class="page-navigation"> 
+    {% if page.categories contains 'work' %}
+        <div class="left">{% if page.work_previous.url %}<a href="{{page.work_previous.url}}" title="Previous Post: {{page.work_previous.title}}">&laquo; previous</a>{% endif %}</div> 
+        <div class="right">{% if page.work_next.url %}<a href="{{page.work_next.url}}" title="Next Post: {{page.work_next.title}}">next &raquo;</a>{% endif %}</div> 
+    {% endif %}
+    {% if page.categories contains 'art' %}
+        <div class="left">{% if page.art_previous.url %}<a href="{{page.art_previous.url}}" title="Previous Post: {{page.art_previous.title}}">&laquo; previous</a>{% endif %}</div> 
+        <div class="right">{% if page.art_next.url %}<a href="{{page.art_next.url}}" title="Next Post: {{page.art_next.title}}">next &raquo;</a>{% endif %}</div> 
+    {% endif %}
+</div> 
+
+
+<section class="thing {{page.shortname}}">
+    <section class="description">                
+        <h1>{{page.title}}</h1>
+        <div class="longform">
+            {{page.longform}}
+        </div>
+        <div class="meta-info">
+            <p class="dater">{{page.dater}}</p>
+            {% if page.client %}<p class="client"><span class="meta-title"><strong>Client: </strong></span>{{page.client}}</p>{% endif %}
+            {% if page.artdirection %}<p class="artdirection"><span class="meta-title"><strong>Art Direction: </strong></span>{{page.artdirection}}</p>{% endif %}
+            {% if page.press %}<p class="press"><span class="meta-title"><strong>Press: </strong></span>{{page.press}}</p>{% endif %}
+            {% if page.tools %}<p class="tool"><span class="meta-title"><strong>Tools: </strong></span>{{page.tools}}</p>{% endif %}
+            {% if page.website %}<p class="website"><a href="{{page.website}}"><span class="box"><span class="triangle"></span></span>Visit Site</a></p>{% endif %}
+        </div>
+    </section>
+
+    <section class="photo {% if page.image2%}multiple{% else %}one{% endif %}">
+        <ul class="no-list">
+            <li class="first-image {{ page.image1-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image1 }}" alt="{{page.title}}"/></li>
+            {% if page.image2 %}<li class="{{ page.image2-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image2 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image3 %}<li class="{{ page.image3-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image3 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image4 %}<li class="{{ page.image4-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image4 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image5 %}<li class="{{ page.image5-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image5 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image6 %}<li class="{{ page.image6-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image6 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image7 %}<li class="{{ page.image7-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image7 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image8 %}<li class="{{ page.image8-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image8 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image9 %}<li class="{{ page.image9-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image9 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image10 %}<li class="{{ page.image10-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image10 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.video1 %}<li class="video {{ page.video1-class }}"><div class="fluidvideowrapper">{{ page.video1 }}</div></li>{% endif %}
+            {% if page.video2 %}<li class="video {{ page.video2-class }}"><div class="fluidvideowrapper">{{ page.video2 }}</div></li>{% endif %}
+            {% if page.video3 %}<li class="video {{ page.video3-class }}"><div class="fluidvideowrapper">{{ page.video3 }}</div></li>{% endif %}
+            {% if page.video4 %}<li class="video {{ page.video4-class }}"><div class="fluidvideowrapper">{{ page.video4 }}</div></li>{% endif %}
+
+        </ul>
+    </section>
+
+</section>
+
+<div class="page-navigation page-navigation-footer"> 
+    {% if page.categories contains 'work' %}
+        <div class="left">{% if page.work_previous.url %}<a href="{{page.work_previous.url}}" title="Previous Post: {{page.work_previous.title}}">&laquo; previous</a>{% endif %}</div> 
+        <div class="right">{% if page.work_next.url %}<a href="{{page.work_next.url}}" title="Next Post: {{page.work_next.title}}">next &raquo;</a>{% endif %}</div> 
+    {% endif %}
+    {% if page.categories contains 'art' %}
+        <div class="left">{% if page.art_previous.url %}<a href="{{page.art_previous.url}}" title="Previous Post: {{page.art_previous.title}}">&laquo; previous</a>{% endif %}</div> 
+        <div class="right">{% if page.art_next.url %}<a href="{{page.art_next.url}}" title="Next Post: {{page.art_next.title}}">next &raquo;</a>{% endif %}</div> 
+    {% endif %}
+</div> 
+
+
+
+
+
+
+
+
+

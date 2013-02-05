@@ -1,0 +1,1142 @@
+/* line 6, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+/* line 10, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+audio, canvas, video {
+  display: inline-block;
+}
+
+/* line 17, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 23, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+[hidden] {
+  display: none;
+}
+
+/* line 33, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 39, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+html, button, input, select, textarea {
+  font-family: sans-serif;
+}
+
+/* line 43, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+body {
+  margin: 0;
+}
+
+/* line 51, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 56, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 63, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 67, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 71, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 74, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 78, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+dfn, em {
+  font-style: italic;
+}
+
+/* line 82, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+mark {
+  background: yellow;
+  color: black;
+}
+
+/* line 87, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+p, pre {
+  margin: 0 0 0.7em 0;
+}
+
+/* line 91, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  _font-family: "courier new", monospace;
+  font-size: 1em;
+}
+
+/* line 97, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 103, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+q {
+  quotes: none;
+}
+
+/* line 107, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 111, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+small {
+  font-size: 75%;
+}
+
+/* line 115, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 121, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+sup {
+  top: -0.5em;
+}
+
+/* line 124, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 133, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+dl, menu, ol, ul, dd {
+  margin: 0 0 15px 40px;
+}
+
+/* line 138, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+menu, ol, ul {
+  padding: 0;
+}
+
+/* line 142, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+nav ul, nav ol, .no-list {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+}
+
+/* line 155, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 160, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 168, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+figure {
+  margin: 0;
+}
+
+/* line 177, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+form {
+  margin: 0;
+}
+
+/* line 181, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+fieldset {
+  padding: 5px 20px 10px;
+  border: 1px solid #888888;
+  margin: 0;
+}
+
+/* line 189, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+/* line 198, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+/* line 205, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+button, input {
+  line-height: normal;
+}
+
+/* line 212, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 218, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+/* line 224, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 232, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 239, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 243, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 249, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 259, /Users/billybrown00/Desktop/portfolio/sass/_normalize.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 13, /Users/billybrown00/Desktop/portfolio/sass/_boiler.sass */
+html, button, input, select, textarea {
+  color: #222222;
+}
+
+/* line 16, /Users/billybrown00/Desktop/portfolio/sass/_boiler.sass */
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 26, /Users/billybrown00/Desktop/portfolio/sass/_boiler.sass */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 30, /Users/billybrown00/Desktop/portfolio/sass/_boiler.sass */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 38, /Users/billybrown00/Desktop/portfolio/sass/_boiler.sass */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 51, /Users/billybrown00/Desktop/portfolio/sass/_boiler.sass */
+img {
+  vertical-align: middle;
+}
+
+/* line 59, /Users/billybrown00/Desktop/portfolio/sass/_boiler.sass */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 69, /Users/billybrown00/Desktop/portfolio/sass/_boiler.sass */
+textarea {
+  resize: vertical;
+}
+
+/* line 77, /Users/billybrown00/Desktop/portfolio/sass/_boiler.sass */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #cccccc;
+  color: black;
+  padding: 0.2em 0;
+}
+
+/* line 8, ../sass/screen.sass */
+.font-small, body, .featured-projects p {
+  font-size: 0.9em;
+  line-height: 1.2em;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: normal;
+}
+
+/* line 14, ../sass/screen.sass */
+.font-title, h1, h2, h3, h4, h5, .featured-projects h1, .website a {
+  font-size: 1.5em;
+  line-height: 1.1em;
+  font-family: "Droid Serif", Georgia, serif;
+  font-weight: normal;
+}
+
+/* line 20, ../sass/screen.sass */
+.font-giant, .about-me h1, .side-projects h2, .thing .description h1, .item h1, .item h2 {
+  font-size: 4em;
+  line-height: 1em;
+  font-family: "Droid Serif", Georgia, serif;
+  font-weight: normal;
+}
+
+/* line 29, ../sass/screen.sass */
+body {
+  width: 100%;
+}
+
+/* line 33, ../sass/screen.sass */
+a {
+  color: #333333;
+  text-decoration: none;
+}
+/* line 37, ../sass/screen.sass */
+a:hover {
+  color: #333333;
+}
+
+/* line 40, ../sass/screen.sass */
+img {
+  max-width: 100%;
+}
+
+/* line 43, ../sass/screen.sass */
+h1, h2, h3, h4, h5 {
+  padding-bottom: 8px;
+}
+
+/* line 49, ../sass/screen.sass */
+p a {
+  color: #ff2c4a;
+}
+/* line 52, ../sass/screen.sass */
+p a:hover {
+  color: #ff5f76;
+}
+
+/* line 60, ../sass/screen.sass */
+.site-header {
+  padding: 0px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 64, ../sass/screen.sass */
+.site-nav {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+/* line 69, ../sass/screen.sass */
+.site-nav li, .site-nav ul, .site-nav h2, .site-nav h1 {
+  display: inline;
+}
+/* line 72, ../sass/screen.sass */
+.site-nav h2, .site-nav h1 {
+  padding: 0 10px;
+}
+/* line 75, ../sass/screen.sass */
+.site-nav h1 {
+  font-weight: bold;
+}
+/* line 78, ../sass/screen.sass */
+.site-nav .active a {
+  color: #ff2c4a;
+}
+
+/* line 84, ../sass/screen.sass */
+.about-me {
+  padding: 50px;
+  max-width: 485px;
+  margin: 0 auto 0;
+}
+/* line 89, ../sass/screen.sass */
+.about-me h1 {
+  padding-bottom: 30px;
+}
+/* line 93, ../sass/screen.sass */
+.about-me .text > p {
+  max-width: 600px;
+}
+/* line 96, ../sass/screen.sass */
+.about-me .text {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 99, ../sass/screen.sass */
+.about-videos {
+  border-top: 1px solid #dddddd;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+/* line 105, ../sass/screen.sass */
+.about-videos li {
+  margin-bottom: 20px;
+}
+/* line 108, ../sass/screen.sass */
+.about-videos li iframe {
+  border: none !important;
+}
+/* line 111, ../sass/screen.sass */
+.about-videos li p {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 120, ../sass/screen.sass */
+.featured-projects {
+  padding: 40px;
+  max-width: 485px;
+  margin: 0 auto;
+}
+/* line 125, ../sass/screen.sass */
+.featured-projects li {
+  margin-bottom: 40px;
+}
+/* line 128, ../sass/screen.sass */
+.featured-projects .description {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  margin: 20px 0 0 0;
+}
+/* line 133, ../sass/screen.sass */
+.featured-projects h1 {
+  font-weight: bold;
+  padding: 8px 0;
+}
+/* line 141, ../sass/screen.sass */
+.featured-projects .triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #dddddd;
+  margin: -11px auto 0;
+}
+/* line 151, ../sass/screen.sass */
+.featured-projects a:hover .triangle {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #333333;
+  margin: -16px auto 0;
+}
+/* line 157, ../sass/screen.sass */
+.featured-projects a:hover .description {
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+}
+
+/* line 161, ../sass/screen.sass */
+.projects {
+  padding: 0 50px 60px;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 165, ../sass/screen.sass */
+.projects li {
+  width: 33.333%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid white;
+}
+/* line 172, ../sass/screen.sass */
+.projects li:hover {
+  border: 1px solid #ff2c4a;
+}
+
+/* line 179, ../sass/screen.sass */
+.side-projects {
+  margin: 50px auto 0;
+  max-width: 485px;
+}
+/* line 183, ../sass/screen.sass */
+.side-projects li {
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+/* line 190, ../sass/screen.sass */
+.side-projects li:hover {
+  border: none;
+}
+/* line 196, ../sass/screen.sass */
+.side-projects .side-project-image {
+  margin-bottom: 20px;
+}
+/* line 199, ../sass/screen.sass */
+.side-projects .longform {
+  padding-right: 20px;
+}
+
+/* line 210, ../sass/screen.sass */
+.thing {
+  padding: 40px;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 214, ../sass/screen.sass */
+.thing .artdirection {
+  background: url("/img/artdirector.png") no-repeat;
+  padding-left: 27px;
+  padding-bottom: 2px;
+  padding-top: 4px;
+  margin-top: -4px;
+}
+/* line 221, ../sass/screen.sass */
+.thing .description {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  *zoom: 1;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+/* line 228, ../sass/screen.sass */
+.thing .description h1 {
+  padding-bottom: 30px;
+}
+/* line 236, ../sass/screen.sass */
+.thing .photo.one li {
+  float: none;
+  margin: 0 auto;
+}
+/* line 240, ../sass/screen.sass */
+.thing .photo li {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 244, ../sass/screen.sass */
+.thing .photo li.webpage img {
+  border: 1px solid #333333;
+  border-top: 12px solid #333333;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 250, ../sass/screen.sass */
+.client {
+  background: url("/img/client.png") no-repeat;
+  padding-left: 27px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+
+/* line 256, ../sass/screen.sass */
+.press {
+  background: url("/img/press.png") no-repeat;
+  padding-left: 27px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+/* line 262, ../sass/screen.sass */
+.tool {
+  background: url("/img/tool.png") no-repeat;
+  padding-left: 27px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+/* line 268, ../sass/screen.sass */
+.website {
+  display: inline;
+}
+/* line 271, ../sass/screen.sass */
+.website a {
+  color: white;
+  border: 1px solid #333333;
+  padding: 10px 0 10px 12px;
+  background: #333333;
+  color: white;
+  width: 200px;
+  position: relative;
+  display: block;
+  -webkit-transition: width 0.1s linear;
+  -moz-transition: width 0.1s linear;
+  -ms-transition: width 0.1s linear;
+  -o-transition: width 0.1s linear;
+  transition: width 0.1s linear;
+  margin-bottom: 10px;
+}
+/* line 284, ../sass/screen.sass */
+.website .box {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  height: 43px;
+  width: 43px;
+  margin: -10px 0 0 0;
+}
+/* line 293, ../sass/screen.sass */
+.website .triangle {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #333333;
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  z-index: 10;
+  display: block;
+}
+/* line 305, ../sass/screen.sass */
+.website a:hover {
+  width: 250px;
+  color: white;
+}
+/* line 309, ../sass/screen.sass */
+.website a:hover .triangle {
+  border-left: 10px solid #ff2c4a;
+}
+
+/* line 312, ../sass/screen.sass */
+.page-navigation {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 315, ../sass/screen.sass */
+.page-navigation a {
+  background: #dddddd;
+  padding: 5px 5px 5px 5px;
+  display: inline-block;
+}
+/* line 320, ../sass/screen.sass */
+.page-navigation a:hover {
+  background: #ff2c4a;
+  color: white;
+}
+/* line 324, ../sass/screen.sass */
+.page-navigation .left {
+  float: left;
+  padding-left: 40px;
+}
+/* line 328, ../sass/screen.sass */
+.page-navigation .right {
+  float: right;
+  padding-right: 40px;
+}
+
+/* line 332, ../sass/screen.sass */
+.page-navigation-footer {
+  border-top: 1px solid #dddddd;
+  margin-bottom: 60px;
+}
+
+/* line 340, ../sass/screen.sass */
+.talking-bubble {
+  position: absolute;
+  right: 200px;
+  top: 30px;
+  background: white;
+  color: white;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  padding: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: background 0.2s linear;
+  -moz-transition: background 0.2s linear;
+  -ms-transition: background 0.2s linear;
+  -o-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+
+/* line 353, ../sass/screen.sass */
+.character-wrapper {
+  width: 100%;
+  height: 129px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 359, ../sass/screen.sass */
+.character-wrapper .character {
+  height: 129px;
+  width: 112px;
+  margin: 0 100px 0 0;
+  position: absolute;
+  right: 0;
+  background: url(../img/sprite-business.png);
+  cursor: pointer;
+}
+/* line 368, ../sass/screen.sass */
+.character-wrapper .character.speed-normal {
+  -webkit-transition: margin 0.5s linear;
+  -moz-transition: margin 0.5s linear;
+  -ms-transition: margin 0.5s linear;
+  -o-transition: margin 0.5s linear;
+  transition: margin 0.5s linear;
+}
+/* line 371, ../sass/screen.sass */
+.character-wrapper .character.speed-long {
+  -webkit-transition: margin 2s linear;
+  -moz-transition: margin 2s linear;
+  -ms-transition: margin 2s linear;
+  -o-transition: margin 2s linear;
+  transition: margin 2s linear;
+}
+/* line 374, ../sass/screen.sass */
+.character-wrapper .character.runawayleft {
+  margin-right: -100px;
+}
+/* line 377, ../sass/screen.sass */
+.character-wrapper .character.fixed {
+  position: fixed;
+}
+/* line 380, ../sass/screen.sass */
+.character-wrapper .character.breath-up {
+  background-position: -111px 0px;
+}
+/* line 383, ../sass/screen.sass */
+.character-wrapper .character.breath-left {
+  background-position: 0px 130px;
+}
+/* line 386, ../sass/screen.sass */
+.character-wrapper .character.breath-up-left {
+  background-position: -111px -130px;
+}
+/* line 389, ../sass/screen.sass */
+.character-wrapper .character.run1-left {
+  background-position: -222px -130px;
+}
+/* line 392, ../sass/screen.sass */
+.character-wrapper .character.run2-left {
+  background-position: -333px -130px;
+}
+/* line 395, ../sass/screen.sass */
+.character-wrapper .character.run3-left {
+  background-position: -444px -130px;
+}
+/* line 398, ../sass/screen.sass */
+.character-wrapper .character.run4-left {
+  background-position: -555px -130px;
+}
+/* line 401, ../sass/screen.sass */
+.character-wrapper .character.run5-left {
+  background-position: -666px -130px;
+}
+/* line 404, ../sass/screen.sass */
+.character-wrapper .character.run1 {
+  background-position: -222px 0px;
+}
+/* line 407, ../sass/screen.sass */
+.character-wrapper .character.run2 {
+  background-position: -333px 0px;
+}
+/* line 410, ../sass/screen.sass */
+.character-wrapper .character.run3 {
+  background-position: -444px 0px;
+}
+/* line 413, ../sass/screen.sass */
+.character-wrapper .character.run4 {
+  background-position: -555px 0px;
+}
+/* line 416, ../sass/screen.sass */
+.character-wrapper .character.run5 {
+  background-position: -666px 0px;
+}
+
+/* line 423, ../sass/screen.sass */
+.top-item {
+  position: absolute;
+  right: 100px;
+  width: 40px;
+  top: 90px;
+  height: 40px;
+}
+
+/* line 430, ../sass/screen.sass */
+.inventory {
+  height: 36px;
+  border-top: 1px solid #333333;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 30px 15px;
+  display: none;
+  z-index: 100;
+  text-align: center;
+}
+/* line 442, ../sass/screen.sass */
+.inventory ul {
+  margin-right: 60px;
+}
+/* line 445, ../sass/screen.sass */
+.inventory li {
+  width: 40px;
+  cursor: pointer;
+  position: relative;
+  margin: 0 5px;
+  text-align: center;
+  display: inline-block;
+}
+/* line 453, ../sass/screen.sass */
+.inventory li:hover .inner {
+  margin-top: -3px;
+}
+/* line 456, ../sass/screen.sass */
+.inventory li:active .inner {
+  margin-top: 4px;
+}
+
+/* line 460, ../sass/screen.sass */
+.item {
+  max-width: 1000px;
+  margin: 50px auto 100px;
+  padding: 0 50px;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 466, ../sass/screen.sass */
+.item .image {
+  text-align: center;
+}
+/* line 469, ../sass/screen.sass */
+.item h1, .item h2 {
+  margin-top: 50px;
+}
+/* line 473, ../sass/screen.sass */
+.item .reward {
+  margin-top: 20px;
+}
+
+/* line 6, /Users/billybrown00/Desktop/portfolio/sass/_helper.sass */
+.fluidvideowrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+/* line 12, /Users/billybrown00/Desktop/portfolio/sass/_helper.sass */
+.fluidvideowrapper object, .fluidvideowrapper embed, .fluidvideowrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 23, /Users/billybrown00/Desktop/portfolio/sass/_helper.sass */
+.nobr, .together {
+  white-space: nowrap;
+}
+
+/* line 30, /Users/billybrown00/Desktop/portfolio/sass/_helper.sass */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/* line 38, /Users/billybrown00/Desktop/portfolio/sass/_helper.sass */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+}
+
+/* line 49, /Users/billybrown00/Desktop/portfolio/sass/_helper.sass */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 58, /Users/billybrown00/Desktop/portfolio/sass/_helper.sass */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 74, /Users/billybrown00/Desktop/portfolio/sass/_helper.sass */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 88, /Users/billybrown00/Desktop/portfolio/sass/_helper.sass */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 104, /Users/billybrown00/Desktop/portfolio/sass/_helper.sass */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 110, /Users/billybrown00/Desktop/portfolio/sass/_helper.sass */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 119, /Users/billybrown00/Desktop/portfolio/sass/_helper.sass */
+.clearfix {
+  *zoom: 1;
+}
+
+@media only screen and (max-width: 670px) {
+  /* line 486, ../sass/screen.sass */
+  .item, .inventory, .top-item, .talking-bubble, .character-wrapper .character {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 620px) {
+  /* Style adjustments for viewports that meet the condition */
+}
+@media only screen and (min-width: 950px) {
+  /* Style adjustments for viewports that meet the condition */
+  /* line 2, /Users/billybrown00/Desktop/portfolio/sass/_break-1.sass */
+  .featured-projects {
+    overflow: hidden;
+    *zoom: 1;
+    max-width: 100%;
+  }
+  /* line 6, /Users/billybrown00/Desktop/portfolio/sass/_break-1.sass */
+  .featured-projects li {
+    width: 20%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  /* line 13, /Users/billybrown00/Desktop/portfolio/sass/_break-1.sass */
+  .featured-projects h1 {
+    font-size: 0.9em;
+    line-height: 1.2em;
+    font-family: "Droid Sans", sans-serif;
+    font-weight: normal;
+    font-weight: bold;
+    padding: 8px 0;
+  }
+
+  /* line 23, /Users/billybrown00/Desktop/portfolio/sass/_break-1.sass */
+  .projects li {
+    width: 10%;
+  }
+
+  /* line 29, /Users/billybrown00/Desktop/portfolio/sass/_break-1.sass */
+  .thing {
+    max-width: 1636px;
+    margin: 0 auto;
+  }
+  /* line 33, /Users/billybrown00/Desktop/portfolio/sass/_break-1.sass */
+  .thing .meta-info {
+    width: 40%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin-left: 10px;
+    border-left: 1px solid #dddddd;
+  }
+  /* line 41, /Users/billybrown00/Desktop/portfolio/sass/_break-1.sass */
+  .thing .longform {
+    width: 50%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+  /* line 49, /Users/billybrown00/Desktop/portfolio/sass/_break-1.sass */
+  .thing .photo li {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* line 59, /Users/billybrown00/Desktop/portfolio/sass/_break-1.sass */
+  .about-me {
+    max-width: 100%;
+  }
+
+  /* line 62, /Users/billybrown00/Desktop/portfolio/sass/_break-1.sass */
+  .about-videos {
+    overflow: hidden;
+    *zoom: 1;
+  }
+  /* line 65, /Users/billybrown00/Desktop/portfolio/sass/_break-1.sass */
+  .about-videos li {
+    width: 33.333%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* line 70, /Users/billybrown00/Desktop/portfolio/sass/_break-1.sass */
+  .introduction, .introduction-2, .credits {
+    width: 33.333%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 40px;
+    float: left;
+  }
+
+  /* line 80, /Users/billybrown00/Desktop/portfolio/sass/_break-1.sass */
+  .side-projects {
+    max-width: 100%;
+  }
+  /* line 83, /Users/billybrown00/Desktop/portfolio/sass/_break-1.sass */
+  .side-projects li {
+    width: 33.333%;
+    padding: 10px;
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+  /* Style adjustments for high resolution devices */
+}
+@media print {
+  /* line 1, /Users/billybrown00/Desktop/portfolio/sass/_print.sass */
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 7, /Users/billybrown00/Desktop/portfolio/sass/_print.sass */
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 10, /Users/billybrown00/Desktop/portfolio/sass/_print.sass */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 13, /Users/billybrown00/Desktop/portfolio/sass/_print.sass */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 21, /Users/billybrown00/Desktop/portfolio/sass/_print.sass */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 25, /Users/billybrown00/Desktop/portfolio/sass/_print.sass */
+  pre, blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid;
+  }
+
+  /* line 30, /Users/billybrown00/Desktop/portfolio/sass/_print.sass */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 34, /Users/billybrown00/Desktop/portfolio/sass/_print.sass */
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  /* line 38, /Users/billybrown00/Desktop/portfolio/sass/_print.sass */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 46, /Users/billybrown00/Desktop/portfolio/sass/_print.sass */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 51, /Users/billybrown00/Desktop/portfolio/sass/_print.sass */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}

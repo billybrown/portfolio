@@ -1,0 +1,20 @@
+        
+
+    <section class="projects">
+        <ul class="no-list">
+            {% for post in site.categories.art %}
+                {% if post.categories contains 'art' and post.categories contains 'featured' %}{% else %}
+                <li class="{{ post.shortname }} {{ post.position }}">
+                    <a href="{{ site.url }}{{ post.url }}">
+                        <img src="/img/projects/{{ post.short-name }}/{{ post.front-image-small }}" alt="{{ post.title }}" />
+                        <div class="description" style="display: none;">
+                            <h2>{{ post.title }}</h2>
+                            <p>{{ post.descripton }}</p>
+                        </div>
+                    </a>
+                </li>
+                           {% endif %}
+
+            {% endfor %}
+        </ul>
+    </section>

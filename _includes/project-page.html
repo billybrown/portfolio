@@ -1,0 +1,19 @@
+        
+
+    <section class="projects side-projects">
+        <ul class="no-list">
+            {% for post in site.categories.project %}
+                <li class="{{ post.shortname }} {{ post.position }}">
+                        <a href="{{ post.website }}"><img class="side-project-image" src="/img/projects/{{ post.short-name }}/{{ post.front-image }}" alt="{{ post.title }}" /></a>
+                        <div class="description">
+                            <h2>{{ post.title }}</h2>
+                            <p class="date">{{ post.dater }}</p>
+                            <p class="longform">{{ post.longform }}</p>
+                            <p class="website"><a href="{{ post.website }}">
+                                <span class="box"><span class="triangle"></span></span>Visit Project
+                            </a></p>
+                        </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </section>

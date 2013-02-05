@@ -1,0 +1,14 @@
+/* line 3, ../sass/break-1.sass */
+.featured-projects {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 6, ../sass/break-1.sass */
+.featured-projects li {
+  width: 20%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+}
