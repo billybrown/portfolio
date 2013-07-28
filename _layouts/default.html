@@ -17,14 +17,14 @@ subtitle: Guy that makes stuff sometimes.
         <meta name="description" content="{{ page.subtitle }}">
         <meta name="viewport" content="width=device-width">
 
-            <link rel="stylesheet" href="{{ site.url }}/css/screen.css">
+            <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="{{ site.baseurl}}/favicon.ico">
 
-
-        <script src="{{ site.url }}/js/vendor/jquery-1.8.0.min.js"></script>
-        <script src="{{ site.url }}/js/jquery.cookie.js"></script>
-        <script src="{{ site.url }}/js/main.js"></script>
-        <script src="{{ site.url }}/js/vendor/modernizr-2.6.1.min.js"></script>
+        <script src="{{ site.baseurl }}/js/vendor/jquery-1.8.0.min.js"></script>
+        <script src="{{ site.baseurl }}/js/jquery.cookie.js"></script>
+        <script src="{{ site.baseurl }}/js/main.js"></script>
+        <script src="{{ site.baseurl }}/js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
     <body class="{{page.shortname}}">
         <!--[if lt IE 7]>
@@ -40,11 +40,11 @@ subtitle: Guy that makes stuff sometimes.
             </div>
             <nav class="site-nav">
                 <ul class="no-list">
-                    <li><h1><a href="{{ site.url }}">Bill</a></h1></li>
-                    <li {% if page.categories contains 'work' %}class="active"{% endif %} ><h2><a href="{{ site.url }}">Work</a></h2></li>
-                    <li {% if page.categories contains 'project' %}class="active"{% endif %} ><h2><a href="{{ site.url }}/projects.html">Projects</a></h2></li>
-                    <li {% if page.categories contains 'art'  %}class="active"{% endif %} ><h2><a href="{{ site.url }}/art.html">Art</a></h2></li>
-                    <li {% if page.categories contains 'about' %}class="active"{% endif %} ><h2><a href="{{ site.url }}/about.html">About</a></h2></li>
+                    <li><h1><a href="{{ site.baseurl }}">Bill</a></h1></li>
+                    <li {% if page.categories contains 'work' %}class="active"{% endif %} ><h2><a href="{{ site.baseurl }}">Work</a></h2></li>
+                    <li {% if page.categories contains 'project' %}class="active"{% endif %} ><h2><a href="{{ site.baseurl }}/projects.html">Projects</a></h2></li>
+                    <li {% if page.categories contains 'art'  %}class="active"{% endif %} ><h2><a href="{{ site.baseurl }}/art.html">Art</a></h2></li>
+                    <li {% if page.categories contains 'about' %}class="active"{% endif %} ><h2><a href="{{ site.baseurl }}/about.html">About</a></h2></li>
                 </ul>
             </nav>
         </header>

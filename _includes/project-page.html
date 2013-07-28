@@ -4,7 +4,7 @@
         <ul class="no-list">
             {% for post in site.categories.project %}
                 <li class="{{ post.shortname }} {{ post.position }}">
-                        <a href="{{ post.website }}"><img class="side-project-image" src="/img/projects/{{ post.short-name }}/{{ post.front-image }}" alt="{{ post.title }}" /></a>
+                        <a href="{{ post.website }}"><img class="side-project-image" src="{{ site.baseurl }}/img/projects/{{ post.short-name }}/{{ post.front-image }}" alt="{{ post.title }}" /></a>
                         <div class="description">
                             <h2>{{ post.title }}</h2>
                             <p class="date">{{ post.dater }}</p>

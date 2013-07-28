@@ -1,12 +1,12 @@
         
 <div class="page-navigation"> 
     {% if page.categories contains 'work' %}
-        <div class="left">{% if page.work_previous.url %}<a href="{{page.work_previous.url}}" title="Previous Post: {{page.work_previous.title}}">&laquo; previous</a>{% endif %}</div> 
-        <div class="right">{% if page.work_next.url %}<a href="{{page.work_next.url}}" title="Next Post: {{page.work_next.title}}">next &raquo;</a>{% endif %}</div> 
+        <div class="left">{% if page.work_previous.url %}<a href="{{ site.baseurl }}{{page.work_previous.url}}" title="Previous Post: {{page.work_previous.title}}">&laquo; previous</a>{% endif %}</div> 
+        <div class="right">{% if page.work_next.url %}<a href="{{ site.baseurl }}{{page.work_next.url}}" title="Next Post: {{page.work_next.title}}">next &raquo;</a>{% endif %}</div> 
     {% endif %}
     {% if page.categories contains 'art' %}
-        <div class="left">{% if page.art_previous.url %}<a href="{{page.art_previous.url}}" title="Previous Post: {{page.art_previous.title}}">&laquo; previous</a>{% endif %}</div> 
-        <div class="right">{% if page.art_next.url %}<a href="{{page.art_next.url}}" title="Next Post: {{page.art_next.title}}">next &raquo;</a>{% endif %}</div> 
+        <div class="left">{% if page.art_previous.url %}<a href="{{ site.baseurl }}{{page.art_previous.url}}" title="Previous Post: {{page.art_previous.title}}">&laquo; previous</a>{% endif %}</div> 
+        <div class="right">{% if page.art_next.url %}<a href="{{ site.baseurl }}{{page.art_next.url}}" title="Next Post: {{page.art_next.title}}">next &raquo;</a>{% endif %}</div> 
     {% endif %}
 </div> 
 
@@ -29,29 +29,29 @@
 
     <section class="photo {% if page.image2%}multiple{% else %}one{% endif %}">
         <ul class="no-list">
-            <li class="first-image {{ page.image1-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image1 }}" alt="{{page.title}}"/></li>
-            {% if page.image2 %}<li class="{{ page.image2-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image2 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image3 %}<li class="{{ page.image3-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image3 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image4 %}<li class="{{ page.image4-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image4 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image5 %}<li class="{{ page.image5-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image5 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image6 %}<li class="{{ page.image6-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image6 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image7 %}<li class="{{ page.image7-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image7 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image8 %}<li class="{{ page.image8-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image8 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image9 %}<li class="{{ page.image9-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image9 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image10 %}<li class="{{ page.image10-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image10 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image11 %}<li class="{{ page.image11-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image11 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image12 %}<li class="{{ page.image12-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image12 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image13 %}<li class="{{ page.image13-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image13 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image14 %}<li class="{{ page.image14-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image14 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image15 %}<li class="{{ page.image15-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image15 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image16 %}<li class="{{ page.image16-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image16 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image17 %}<li class="{{ page.image17-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image17 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image18 %}<li class="{{ page.image18-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image18 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image19 %}<li class="{{ page.image19-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image19 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image20 %}<li class="{{ page.image20-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image20 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image21 %}<li class="{{ page.image21-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image21 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image22 %}<li class="{{ page.image22-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image22 }}" alt="{{page.title}}"/></li>{% endif %}
-            {% if page.image23 %}<li class="{{ page.image23-class }}"><img src="../../../../../../img/projects/{{ page.short-name }}/{{ page.image23 }}" alt="{{page.title}}"/></li>{% endif %}
+            <li class="first-image {{ page.image1-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image1 }}" alt="{{page.title}}"/></li>
+            {% if page.image2 %}<li class="{{ page.image2-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image2 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image3 %}<li class="{{ page.image3-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image3 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image4 %}<li class="{{ page.image4-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image4 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image5 %}<li class="{{ page.image5-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image5 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image6 %}<li class="{{ page.image6-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image6 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image7 %}<li class="{{ page.image7-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image7 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image8 %}<li class="{{ page.image8-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image8 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image9 %}<li class="{{ page.image9-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image9 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image10 %}<li class="{{ page.image10-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image10 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image11 %}<li class="{{ page.image11-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image11 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image12 %}<li class="{{ page.image12-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image12 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image13 %}<li class="{{ page.image13-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image13 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image14 %}<li class="{{ page.image14-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image14 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image15 %}<li class="{{ page.image15-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image15 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image16 %}<li class="{{ page.image16-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image16 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image17 %}<li class="{{ page.image17-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image17 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image18 %}<li class="{{ page.image18-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image18 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image19 %}<li class="{{ page.image19-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image19 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image20 %}<li class="{{ page.image20-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image20 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image21 %}<li class="{{ page.image21-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image21 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image22 %}<li class="{{ page.image22-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image22 }}" alt="{{page.title}}"/></li>{% endif %}
+            {% if page.image23 %}<li class="{{ page.image23-class }}"><img src="{{ site.baseurl }}/img/projects/{{ page.short-name }}/{{ page.image23 }}" alt="{{page.title}}"/></li>{% endif %}
             {% if page.video1 %}<li class="video {{ page.video1-class }}"><div class="fluidvideowrapper">{{ page.video1 }}</div></li>{% endif %}
             {% if page.video1 %}<li class="video {{ page.video1-class }}"><div class="fluidvideowrapper">{{ page.video1 }}</div></li>{% endif %}
             {% if page.video2 %}<li class="video {{ page.video2-class }}"><div class="fluidvideowrapper">{{ page.video2 }}</div></li>{% endif %}
@@ -65,12 +65,12 @@
 
 <div class="page-navigation page-navigation-footer"> 
     {% if page.categories contains 'work' %}
-        <div class="left">{% if page.work_previous.url %}<a href="{{page.work_previous.url}}" title="Previous Post: {{page.work_previous.title}}">&laquo; previous</a>{% endif %}</div> 
-        <div class="right">{% if page.work_next.url %}<a href="{{page.work_next.url}}" title="Next Post: {{page.work_next.title}}">next &raquo;</a>{% endif %}</div> 
+        <div class="left">{% if page.work_previous.url %}<a href="{{ site.baseurl }}{{page.work_previous.url}}" title="Previous Post: {{page.work_previous.title}}">&laquo; previous</a>{% endif %}</div> 
+        <div class="right">{% if page.work_next.url %}<a href="{{ site.baseurl }}{{page.work_next.url}}" title="Next Post: {{page.work_next.title}}">next &raquo;</a>{% endif %}</div> 
     {% endif %}
     {% if page.categories contains 'art' %}
-        <div class="left">{% if page.art_previous.url %}<a href="{{page.art_previous.url}}" title="Previous Post: {{page.art_previous.title}}">&laquo; previous</a>{% endif %}</div> 
-        <div class="right">{% if page.art_next.url %}<a href="{{page.art_next.url}}" title="Next Post: {{page.art_next.title}}">next &raquo;</a>{% endif %}</div> 
+        <div class="left">{% if page.art_previous.url %}<a href="{{ site.baseurl }}{{page.art_previous.url}}" title="Previous Post: {{page.art_previous.title}}">&laquo; previous</a>{% endif %}</div> 
+        <div class="right">{% if page.art_next.url %}<a href="{{ site.baseurl }}{{page.art_next.url}}" title="Next Post: {{page.art_next.title}}">next &raquo;</a>{% endif %}</div> 
     {% endif %}
 </div> 
 

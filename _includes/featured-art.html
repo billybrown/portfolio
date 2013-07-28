@@ -5,8 +5,8 @@
             {% for post in site.posts %}
                 {% if post.categories contains 'art' and post.categories contains 'featured' %}
                 <li class="{{ post.shortname }} {{ post.position }} project-front">
-                    <a href="{{ site.url }}{{ post.url }}">
-                        <img src="/img/projects/{{ post.short-name }}/{{ post.front-image }}" alt="{{ post.title }}" />
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                        <img src="{{ site.baseurl }}/img/projects/{{ post.short-name }}/{{ post.front-image }}" alt="{{ post.title }}" />
                         <div class="description">
                             <div class="triangle"><span></span></div>
                             <h1>{{ post.title }}</h1>
