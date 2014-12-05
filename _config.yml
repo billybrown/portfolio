@@ -1,9 +1,9 @@
 exclude: ['Rakefile']
 
-#url: http://b.illbrown.com
+url: http://b.illbrown.com
 #url: http://0.0.0.0:4000
 #url: http://bbrownfp.browserstack.com
 permalink: /work/:title
-baseurl: ''
-#baseurl: /portfolio
+#baseurl: ''
+baseurl: /portfolio
 #baseurl: http://b.illbrown.com/freelance/3coasts2/
